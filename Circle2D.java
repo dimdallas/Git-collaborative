@@ -18,6 +18,7 @@ public class Circle2D {
 
     // Compares Euclidean distance of center A and center B with sum of radius A and radius B
     public boolean overlaps(Circle2D other){
-        return center.distance(other.getCenter()) <= radius + other.getRadius();
+        // Changed "less than or equal" operator to "less than" to include single point intersection (tangent circles)
+        return center.distance(other.getCenter()) < radius + other.getRadius();
     }
 }
