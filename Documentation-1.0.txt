@@ -1,0 +1,9 @@
+Product version 1.0
+
+Point2D represents a one dimensional point in a two dimensional cartesian plane.
+Has a X and Y attribute and a Distance method for calculated Euclidean distance between 2 points.
+
+Circle2D represents a two dimensional circle in a two dimensional cartesian plane.
+Has a Point2D center attribute and a radius attribute.
+Includes an Overlaps method, returning true if one circle overlaps with another.
+
